@@ -3,3 +3,50 @@
 h1 {
     font-family: 'Ubuntu';
 }
+/*
+.ibuttons {
+    background-color: rgb(235, 209, 143);
+    display: inline-block;
+    height: 40px;
+    width: 70px;
+    margin-left: -4px;
+
+}
+
+.ibuttons:nth-child(3){
+    background-color: red;
+    color: white;
+}
+*/
+
+.buttons {
+    background-color: rgb(220, 66, 28);
+    display: inline-block;
+}
+
+.buttons p {
+    color: black;
+    font-weight: bolder;
+    padding: 0px 30px 0px 30px;
+}
+
+.buttons:nth-child(n+4) {
+    margin-left: -4px;
+    background-color: rgb(238, 229, 205);
+}
+
+.buttons:first-of-type p {
+    color: white;
+}
+
+.buttons:nth-child(-n+3){
+    border-radius: 5px 0 0 5px;
+}
+
+.buttons:nth-child(6) {
+    border-radius: 0px 5px 5px 0px;
+}
+
+img {
+    margin-top: 10px;
+}
