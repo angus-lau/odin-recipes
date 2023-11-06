@@ -1,52 +1,119 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&family=Ubuntu&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 h1 {
     font-family: 'Ubuntu';
 }
-/*
-.ibuttons {
-    background-color: rgb(235, 209, 143);
-    display: inline-block;
-    height: 40px;
-    width: 70px;
-    margin-left: -4px;
-
-}
-
-.ibuttons:nth-child(3){
-    background-color: red;
-    color: white;
-}
-*/
 
 .buttons {
     background-color: rgb(220, 66, 28);
     display: inline-block;
+    padding-top: 16px;
+    height: 32px;
 }
 
-.buttons p {
+.buttons a {
     color: black;
     font-weight: bolder;
     padding: 0px 30px 0px 30px;
 }
 
-.buttons:nth-child(n+4) {
+.buttons:nth-child(n+5) {
     margin-left: -4px;
-    background-color: rgb(238, 229, 205);
+    background-color: rgba(244,247,234,255);
 }
 
-.buttons:first-of-type p {
+.buttons:first-of-type a {
     color: white;
 }
 
-.buttons:nth-child(-n+3){
+.buttons:nth-child(-n+4){
     border-radius: 5px 0 0 5px;
 }
 
-.buttons:nth-child(6) {
+.buttons:nth-child(7) {
     border-radius: 0px 5px 5px 0px;
 }
 
-img {
-    margin-top: 10px;
+.heart {
+    position: absolute;
+}
+
+.text-buttons {
+    text-decoration: none;
+}
+
+.text-buttons:hover{
+    text-decoration: underline;
+    color: rgb(220, 66, 28);
+}
+
+#lasagna-img {
+    margin-top: 30px;
+    height: 325px;
+    width: 575px;
+    margin-bottom: 40px;
+}
+
+#add-photo {
+    border-style:dashed;
+    width: 100px;
+    height: 50px;
+    border-color: gray;
+    border-width: 1.25px;
+}
+
+#camera {
+    aspect-ratio: 1;
+    width: 20px;
+    margin-bottom: -20px;
+}
+
+.card {
+    background-color: rgba(244,247,234,255);
+    width: 575px;
+    height: 220px;
+    margin-top: 50px;
+}
+
+.sub-card {
+    display: inline-block;
+    margin-right: 80px;
+}
+
+.sub-card p {
+    font-size: .9rem;
+    font-family: 'Poppins';
+    margin-left: 20px;
+    
+}
+
+.sub-card p:first-child {
+    font-weight: bolder;
+}
+
+.sub-card p:nth-child(2) {
+    margin-top: -10px;
+}
+
+.card hr {
+    width: 93%;
+}
+
+#nutrition {
+    text-decoration: underline;
+    text-decoration-color: orange;
+    font-family: 'Poppins';
+    font-size: 13px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+#nutrition a:visited {
+    text-decoration: none;
+}
+
+#nutrition a:link {
+    text-decoration: none;
 }
