@@ -110,10 +110,11 @@ h1 {
     height: 40px;
 }
 
-#nutrition a:visited {
-    text-decoration: none;
+#intro-text {
+    width: 35%;
 }
 
-#nutrition a:link {
-    text-decoration: none;
+#intro-text p {
+    font-size: .9em;
+    font-family: 'Poppins';
 }
