@@ -162,8 +162,72 @@ li p {
 
 .direction-p {
     font-family: 'Source Sans 3';
-    font-weight: 300;
+    font-weight: 400;
     margin-top: -20px;
-    width: 45%;
+    width: 40%;
     font-size: 1rem;
+}
+
+#credits {
+    font-family: 'Source Sans 3';
+    color: rgb(122, 122, 122);
+    font-size: 11px;
+    margin-top: -0.5px;
+}
+
+#finished-img {
+    width: 40%;
+}
+
+#final-button button {
+    background-color: white;
+    width: 39%;
+    height: 45px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(220, 66, 28);
+
+}
+
+#final-button {
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+#final-button button:first-child {
+    background-color: rgb(220, 66, 28);
+    color: white;
+    font-size: 15px;
+    font-family: 'Source Sans 3';
+    margin-right: 5px;
+    font-weight: 600;
+}
+
+#final-button button:nth-child(2) {
+    font-size: 15px;
+    font-family: 'Source Sans 3';
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+#final-button button:first-child:hover {
+    background-color: rgb(175, 53, 22);
+    border-style: none;
+}
+
+#final-button button:nth-child(2):hover {
+    background-color: rgb(220, 66, 28);
+    color: white;
+}
+
+#final-button hr {
+    width: 80%;
+    margin-left: 0px;
+    margin-top: 40px;
+    border-width: 0.5px;
+}
+
+.nheading {
+    display: inline;
 }
