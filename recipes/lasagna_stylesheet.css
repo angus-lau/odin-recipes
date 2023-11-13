@@ -317,10 +317,18 @@ li p {
 
 #inner-color p {
     font-family: 'Source Sans 3';
-    width: 60%;
+    width: 100%;
     text-align: center;
     margin: auto;
     margin-bottom: 12px;
+}
+
+#bottom-review p:first-child {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 #reviews p{
@@ -330,4 +338,46 @@ li p {
 #inner-color hr {
     width: 90%;
     border-width: 0.5px;
+}
+
+#pfp {
+    display: inline-block;
+    background-color: red;
+    width: 5%;
+    margin-left: 10px;  
+}
+
+.final-text:nth-child(3) {
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: rgb(220, 66, 28);
+    text-underline-offset: 4px;
+    background-color: green;
+    display: inline-block;
+}
+
+.final-text:nth-child(3):hover {
+    text-decoration-thickness: 2px;
+}
+
+.final-text:nth-child(6) {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.final-text {
+    display: inline-flex;
+    padding-left: 30px;
+    background-color: blue;
+}
+
+.final-text:nth-child(4) {
+    display: flex;
+    padding-left: 120px;
+
+}
+
+#stars {
+    width: 100px;
+    display: inline;
 }
