@@ -119,13 +119,19 @@ h4 {
 #nutrition {
     text-decoration: underline;
     text-decoration-color: orange;
-    font-family: 'Poppins';
+    font-family: 'Source Sans 3';
     font-size: 13px;
     margin-left: 20px;
     display: flex;
     align-items: center;
     height: 40px;
+    color: black;
+    text-decoration-thickness: 1px;
 }
+
+#nutrition:hover {
+    text-decoration-thickness: 2px;
+}   
 
 #intro-text {
     width: 40%;
@@ -231,3 +237,50 @@ li p {
 .nheading {
     display: inline;
 }
+
+.nheading:nth-child(2) {
+    font-family: 'Source Sans 3';
+}
+
+.nfacts {
+    display:inline-block;
+    font-family: 'Source Sans 3';
+}
+
+.nfacts p:first-of-type {
+    font-weight: 700;
+    margin-bottom: -15px;
+}
+
+.nfacts:nth-child(even) {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#nfacts-div + a {
+    font-family: 'Source Sans 3';
+    text-decoration: underline;
+    color: black;
+    text-decoration-color: rgb(220, 66, 28);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+}
+
+#nfacts-div + a:hover {
+    text-decoration-thickness: 2px;
+}
+
+
+#nfacts-div {
+    margin-bottom: 10px;
+}
+
+#inner-color {
+    background-color: red;
+}
+
+#outer-color {
+    background-color: #f5f6ea;
+    width: 40%;
+    height: 700px;
+
