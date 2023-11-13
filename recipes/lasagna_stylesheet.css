@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&display=swap');
+body {
+    margin-left: 15%;
+}
+
 h1 {
     font-family: 'Josefin Sans';
     font-size: 3rem;
@@ -277,7 +281,7 @@ li p {
 
 #outer-color {
     width: 40%;
-    height: 700px;
+    height: 550px;
 
 }
 
@@ -315,12 +319,12 @@ li p {
     background-color: rgb(175, 53, 22);
 }
 
-#inner-color p {
-    font-family: 'Source Sans 3';
-    width: 100%;
-    text-align: center;
+#inner-color p:first-of-type {
+    width: 60%;
+    text-align: center; 
     margin: auto;
     margin-bottom: 12px;
+    font-size: 15px;
 }
 
 #bottom-review p:first-child {
@@ -328,6 +332,7 @@ li p {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 
 }
 
@@ -342,9 +347,34 @@ li p {
 
 #pfp {
     display: inline-block;
-    background-color: red;
     width: 5%;
-    margin-left: 10px;  
+    margin-left: 22px;  
+    margin-top: 10px;
+}
+
+#stars {
+    width: 100px;
+    position: absolute;
+    top: 620%;
+    left: 53px;
+
+}
+
+.final-text:nth-child(5) {
+    position: absolute;
+    top: 618.5%;
+    left: 135px;
+    font-size: 12px;
+    color:rgb(122, 122, 122)
+}
+
+.final-text:nth-child(6) {
+    display: flex;
+    box-sizing: border-box;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 40px;
+    padding-right: 12px;
 }
 
 .final-text:nth-child(3) {
@@ -352,15 +382,18 @@ li p {
     text-decoration: underline;
     text-decoration-color: rgb(220, 66, 28);
     text-underline-offset: 4px;
-    background-color: green;
-    display: inline-block;
+    position: absolute;
+    left: 55px;
+    top: 614%;
+    font-size: 13px;
 }
 
 .final-text:nth-child(3):hover {
     text-decoration-thickness: 2px;
 }
 
-.final-text:nth-child(6) {
+.final-text:nth-child(7) {
+    font-size: 13px;
     text-decoration: underline;
     text-underline-offset: 4px;
 }
@@ -368,16 +401,11 @@ li p {
 .final-text {
     display: inline-flex;
     padding-left: 30px;
-    background-color: blue;
+
 }
 
 .final-text:nth-child(4) {
     display: flex;
     padding-left: 120px;
 
-}
-
-#stars {
-    width: 100px;
-    display: inline;
 }
