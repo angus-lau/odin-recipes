@@ -99,7 +99,7 @@ h4 {
 
 .sub-card p {
     font-size: .9rem;
-    font-family: 'Poppins';
+    font-family: 'Source Sans 3';
     margin-left: 20px;
     
 }
@@ -275,12 +275,59 @@ li p {
     margin-bottom: 10px;
 }
 
-#inner-color {
-    background-color: red;
-}
-
 #outer-color {
-    background-color: #f5f6ea;
     width: 40%;
     height: 700px;
 
+}
+
+#inner-color {
+    background-color: white;
+    height: 500px;
+    border: 25px solid #f5f6ea;
+}
+
+#star-click {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    margin: auto;
+}
+
+#inner-color button {
+    background-color: rgb(220, 66, 28);
+    border-style: none;
+    color: white;
+    width: 180px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-family: 'Source Sans 3';
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#inner-color button:hover {
+    background-color: rgb(175, 53, 22);
+}
+
+#inner-color p {
+    font-family: 'Source Sans 3';
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 12px;
+}
+
+#reviews p{
+    font-family: 'Source Sans 3';
+}
+
+#inner-color hr {
+    width: 90%;
+    border-width: 0.5px;
+}
