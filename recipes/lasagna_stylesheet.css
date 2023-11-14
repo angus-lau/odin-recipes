@@ -2,8 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&display=swap');
-body {
+#everything {
     margin-left: 15%;
+}
+
+body {
+    margin: 0px;
 }
 
 h1 {
@@ -24,6 +28,35 @@ h4 {
     font-weight: 700;
 }
 
+nav {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    overflow: auto;
+    margin-top: 25px;
+    box-shadow:5px 5px 5px rgba(0,0,0,0.1);
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    padding-top: 20px;
+}
+
+nav a{
+    padding-left: 35px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Source Sans 3';
+    font-weight: 600;
+    font-size: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(220, 66, 28);
+    text-underline-offset: 4px;
+}
+
 .sub-nav {
     display: inline-block;
     font-family: 'Source Sans 3';
@@ -40,7 +73,7 @@ h4 {
 .sub-nav:nth-child(odd):hover {
     text-decoration: underline;
     text-decoration-color:rgb(220, 66, 28);
-    text-underline-offset: 2px;
+    text-underline-offset: 4px;
 }
 
 .sub-nav:nth-child(even) {
@@ -79,6 +112,7 @@ h4 {
     text-underline-offset: 4px;
     font-weight: 600;
     font-size: 14px;
+    font-family: 'Source Sans 3';
 }
 
 span.date {
@@ -360,6 +394,7 @@ li p {
 #outer-color {
     width: 590px;
     height: 550px;
+    margin-bottom: 20px;
 }
 
 a#cg {
@@ -437,21 +472,21 @@ a#cg:hover {
 #pfp {
     display: inline-block;
     width: 8%;
-    margin-left: 15px;  
+    margin-left: 25px;  
     margin-top: 3px;
 }
 
 #stars {
     width: 100px;
     position: absolute;
-    top: 720.5%;
-    left: 258px;
+    top: 738.5%;
+    left: 265px;
 
 }
 
 .final-text:nth-child(5) {
     position: absolute;
-    top: 719%;
+    top: 737%;
     left: 340px;
     font-size: 12px;
     color:rgb(122, 122, 122)
@@ -472,8 +507,8 @@ a#cg:hover {
     text-decoration-color: rgb(220, 66, 28);
     text-underline-offset: 4px;
     position: absolute;
-    left: 263px;
-    top: 713%;
+    left: 275px;
+    top: 730%;
     font-size: 15px;
 }
 
