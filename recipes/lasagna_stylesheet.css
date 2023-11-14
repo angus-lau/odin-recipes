@@ -8,7 +8,7 @@ body {
 
 h1 {
     font-family: 'Josefin Sans';
-    font-size: 3rem;
+    font-size: 2.8rem;
     font-weight: 700;
 }
 
@@ -24,6 +24,29 @@ h4 {
     font-weight: 700;
 }
 
+.sub-nav {
+    display: inline-block;
+    font-family: 'Source Sans 3';
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.sub-nav:nth-child(odd) {
+    text-decoration: none;
+}
+
+.sub-nav:nth-child(odd):hover {
+    text-decoration: underline;
+    text-decoration-color:rgb(220, 66, 28);
+    text-underline-offset: 2px;
+}
+
+.sub-nav:nth-child(even) {
+    margin-left: 7px;
+    margin-right: 7px;
+}
 
 .buttons {
     background-color: rgb(220, 66, 28);
@@ -32,19 +55,50 @@ h4 {
     height: 32px;
 }
 
+#intro-text-width {
+    width: 91%;
+}
+
+#itext {
+    width: 590px;
+    font-family: 'Source Sans 3';
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+
+#intro-text-width > p {
+    color: black;
+    font-family: 'Source Sans 3';
+    font-size: 14px;
+}
+
+#chef-john {
+    text-decoration: underline;
+    color: black;
+    text-decoration-color: rgb(220, 66, 28);
+    text-underline-offset: 4px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+span.date {
+    color: rgb(107, 106, 106);
+}
+
 .buttons a {
     color: black;
-    font-weight: bolder;
+    font-weight: 600;
     padding: 0px 30px 0px 30px;
+    font-family: 'Source Sans 3';
+}
+
+#b1 {
+    color: white;
 }
 
 .buttons:nth-child(n+5) {
     margin-left: -4px;
     background-color: rgba(244,247,234,255);
-}
-
-.buttons:first-of-type a {
-    color: white;
 }
 
 .buttons:nth-child(-n+4){
@@ -55,82 +109,97 @@ h4 {
     border-radius: 0px 5px 5px 0px;
 }
 
-.heart {
-    position: absolute;
-}
-
 .text-buttons {
     text-decoration: none;
 }
 
 .text-buttons:hover{
     text-decoration: underline;
-    color: rgb(220, 66, 28);
+    text-underline-offset: 3px;
+    text-decoration-color:rgb(220, 66, 28);
 }
 
-#lasagna-img {
+#lasagna-vid {
     margin-top: 30px;
     height: 325px;
-    width: 575px;
+    width: 590px;
     margin-bottom: 40px;
 }
 
 #add-photo {
     border-style:dashed;
     width: 100px;
-    height: 50px;
+    height: 60px;
     border-color: gray;
     border-width: 1.25px;
+}
+
+#add-photo p {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Sans 3';
+    font-size: 12px;
 }
 
 #camera {
     aspect-ratio: 1;
     width: 20px;
-    margin-bottom: -20px;
+    padding-top: 12px;
+    display: flex;
+    margin: auto;
 }
 
 .card {
     background-color: rgba(244,247,234,255);
-    width: 575px;
-    height: 220px;
+    width: 590px;
+    height: 280px;
     margin-top: 50px;
 }
 
 .sub-card {
     display: inline-block;
     margin-right: 80px;
+    margin-top: 10px;
 }
 
 .sub-card p {
-    font-size: .9rem;
+    font-size: 1.120rem;
     font-family: 'Source Sans 3';
     margin-left: 20px;
     
 }
 
 .sub-card p:first-child {
-    font-weight: bolder;
+    font-weight: 600;
 }
 
 .sub-card p:nth-child(2) {
-    margin-top: -10px;
+    margin-top: -16px;
+    font-weight: 300;
 }
 
 .card hr {
     width: 93%;
+    border-color: rgb(163, 160, 160);
+    opacity: 20%;
 }
 
 #nutrition {
     text-decoration: underline;
     text-decoration-color: orange;
     font-family: 'Source Sans 3';
-    font-size: 13px;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 23px;
     margin-left: 20px;
     display: flex;
     align-items: center;
     height: 40px;
     color: black;
     text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
 }
 
 #nutrition:hover {
@@ -138,11 +207,11 @@ h4 {
 }   
 
 #intro-text {
-    width: 40%;
+    width: 55%;
 }
 
 #intro-text p {
-    font-size: .9em;
+    font-size: 1.125em;
     font-family: 'Source Sans 3';
 }
 
@@ -152,7 +221,9 @@ h4 {
 
 #sub-nutrition-card p {
     font-family: 'Source Sans 3';
-    font-size: .9em;
+    font-size: 1.125em;
+    width: 590px;
+    font-weight: 300;
 }
 
 li {
@@ -163,19 +234,22 @@ li {
 li p {
     color: black;
     font-family: 'Source Sans 3';
-    font-size: 1rem;
+    font-size: 1.125rem;
+    font-weight: 300;
 }
 
 #ingredients {
     width: 25%;
+    margin-bottom: 60px;
 }
 
 .direction-p {
     font-family: 'Source Sans 3';
-    font-weight: 400;
+    font-weight: 300;
     margin-top: -20px;
-    width: 40%;
-    font-size: 1rem;
+    width: 590px;
+    font-size: 1.125rem;
+    margin-bottom: 30px;
 }
 
 #credits {
@@ -186,7 +260,8 @@ li p {
 }
 
 #finished-img {
-    width: 40%;
+    width: 590px;
+    height: auto;
 }
 
 #final-button button {
@@ -200,7 +275,7 @@ li p {
 }
 
 #final-button {
-    width: 50%;
+    width: 62%;
     margin-top: 50px;
     margin-bottom: 40px;
 }
@@ -244,11 +319,13 @@ li p {
 
 .nheading:nth-child(2) {
     font-family: 'Source Sans 3';
+    font-weight: 300;
 }
 
 .nfacts {
     display:inline-block;
     font-family: 'Source Sans 3';
+    font-weight: 300;
 }
 
 .nfacts p:first-of-type {
@@ -257,8 +334,8 @@ li p {
 }
 
 .nfacts:nth-child(even) {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 120px;
+    margin-right: 110px;
 }
 
 #nfacts-div + a {
@@ -268,6 +345,7 @@ li p {
     text-decoration-color: rgb(220, 66, 28);
     text-decoration-thickness: 1px;
     text-underline-offset: 4px;
+    font-weight: 300;
 }
 
 #nfacts-div + a:hover {
@@ -280,9 +358,20 @@ li p {
 }
 
 #outer-color {
-    width: 40%;
+    width: 590px;
     height: 550px;
+}
 
+a#cg {
+    color: black;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-color: rgb(220, 66, 28);
+}
+
+a#cg:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
 }
 
 #inner-color {
@@ -347,23 +436,23 @@ li p {
 
 #pfp {
     display: inline-block;
-    width: 5%;
-    margin-left: 22px;  
-    margin-top: 10px;
+    width: 8%;
+    margin-left: 15px;  
+    margin-top: 3px;
 }
 
 #stars {
     width: 100px;
     position: absolute;
-    top: 620%;
-    left: 53px;
+    top: 720.5%;
+    left: 258px;
 
 }
 
 .final-text:nth-child(5) {
     position: absolute;
-    top: 618.5%;
-    left: 135px;
+    top: 719%;
+    left: 340px;
     font-size: 12px;
     color:rgb(122, 122, 122)
 }
@@ -371,7 +460,7 @@ li p {
 .final-text:nth-child(6) {
     display: flex;
     box-sizing: border-box;
-    font-size: 14px;
+    font-size: 1rem;
     text-align: left;
     margin-top: 40px;
     padding-right: 12px;
@@ -383,12 +472,13 @@ li p {
     text-decoration-color: rgb(220, 66, 28);
     text-underline-offset: 4px;
     position: absolute;
-    left: 55px;
-    top: 614%;
-    font-size: 13px;
+    left: 263px;
+    top: 713%;
+    font-size: 15px;
 }
 
 .final-text:nth-child(3):hover {
+    text-decoration: underline;
     text-decoration-thickness: 2px;
 }
 
@@ -401,11 +491,5 @@ li p {
 .final-text {
     display: inline-flex;
     padding-left: 30px;
-
-}
-
-.final-text:nth-child(4) {
-    display: flex;
-    padding-left: 120px;
 
 }
